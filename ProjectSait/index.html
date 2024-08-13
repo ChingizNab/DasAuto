@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Das Auto</title>
+    <script src='https://kit.fontawesome.com/f77600b8df.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <nav>
+        <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">About Us</div>
+        <div class='nav-item' onclick="document.getElementById('team').scrollIntoView({behavior: 'smooth'});">Top car</div>
+        <div class='nav-item' onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Car registration</div>
+        <div class='nav-item switch-theme-button'>Change the topic</div>
+    </nav>
+    <header>
+        <h1>Das Auto<span class='mars mars1'>KZ</span></h1>
+        <div class='arrow-next'><i class='fa-solid fa-arrow-down'></i></div>
+    </header>
+    <main>
+        <section class='section1' id='about'>
+            <h1 style = 'color: #B0C4DE'>Наша Задача!</h1>
+            <div class='about-wrapper'>
+                <p style = 'color: #AFEEEE'>Сайт по продаже автомобилей по всему Казахстану! С Легковых до грузовых машин ежедневно публикуютя у нас на сайте, так-же имеется специальный заказ с других стран, мы активно доставляем новые марки машин совместно с компаниями. Каждый гражданин Казахстана может законно продать автомобиль, или купить. У нас так-же это могут быть и частные лица, и компании</i>.</p>
+            </div>
+        </section>
+        <section class='section2' id='team'>
+            <h1 style = 'color: #3ce8f4'>Самая дорогая машина в Das Auto</h1>
+            <div class='team-wrapper'>
+                <div class='team-item team1'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Rolls-Royce Cullinan 2022</h2>
+                        <p>Город 
+                            Алматы
+                            Наличие 
+                            На заказ
+                            Поколение
+                            2018 - н.в. 1 поколение (RR31)
+                            Кузов
+                            Кроссовер
+                            Объем двигателя, л
+                            6.7 (бензин)
+                            Пробег
+                            1 км
+                            Коробка передач
+                            Автомат
+                            Привод
+                            Полный привод
+                            Руль
+                            Слева
+                            Цвет
+                            белый
+                            Растаможен в Казахстане
+                            Нет. Цена 44000000 ₸</p>
+                    </div>
+                </div>
+                <div class='team-item team2'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Bentley Bentayga 2017</h2>
+                        <p>Город 
+                            Алматы
+                            Поколение
+                            2015 - н.в. 1 поколение (4V1)
+                            Кузов
+                            Кроссовер
+                            Объем двигателя, л
+                            6 (бензин)
+                            Коробка передач
+                            Автомат
+                            Привод
+                            Полный привод
+                            Руль
+                            Слева
+                            Цвет
+                            черный
+                            Растаможен в Казахстане
+                            Да. Цена 75 000 000 ₸</p>
+                    </div>
+                </div>
+                <div class='team-item team3'>
+                    <div class='team-item-top'></div>
+                    <div class='team-item-bottom'>
+                        <h2>Mercedes-Benz G 63 AMG 2024</h2>
+                        <p>Город 
+                            Алматы
+                            Поколение
+                            2024 - н.в. W463 рестайлинг
+                            Кузов
+                            Внедорожник
+                            Объем двигателя, л
+                            4 (бензин)
+                            Коробка передач
+                            Автомат
+                            Привод
+                            Полный привод
+                            Руль
+                            Слева
+                            Цвет
+                            черный металлик
+                            Растаможен в Казахстане
+                            Да. Цена 185 000 000 ₸</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section3' id='submit'>
+            <div class='submit-wrapper'>
+                <h1>Регистрация автомобиля в Das Auto</h1>
+                <div class='submit-form'>
+                    <input class='submit-input' type='text' placeholder='марка автомобиля'>
+                    <p class='submit-input-label'>имя</p>
+                    <input class='submit-input' type='email' placeholder='e-mail'>
+                    <p class='submit-input-label'>e-mail</p>
+                    <input class='submit-input' type='text' placeholder='телефон'>
+                    <p class='submit-input-label'>номер телефона</p>
+                    <div class='submit-input-row'>
+                        <div class='group'>
+                            <input class='submit-input row-item days-input' type='number' placeholder='дни'>
+                            <p class='submit-input-label'>дней на <span class='mars mars5'>Марсе</span></p>
+                        </div>  
+                        <div class='group'>
+                            <select class='submit-select row-item' placeholder='каюта'>
+                                <option value='1000' selected='selected'>Базовый</option>
+                                <option value='2000'>Премиум</option>
+                                <option value='3000'>Люкс</option>
+                            </select>
+                            <p class='submit-input-label'>класс каюты</p>
+                        </div>  
+                    </div>
+                </div>
+                <div class='submit-btn-row'>
+                    <div class='submit-btn submit-btn-calc'>Стоимость</div>
+                    <div class='submit-btn submit-btn-send'>Отправить</div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
